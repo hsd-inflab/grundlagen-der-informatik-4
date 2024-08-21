@@ -1,4 +1,4 @@
-## Course 04 - JavaFX Calculator
+## Course 4: JavaFX
 
 ### Topic
 
