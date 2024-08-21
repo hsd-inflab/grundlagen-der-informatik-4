@@ -1,4 +1,4 @@
-## Course 03 - OOP Intro
+## Course 3: OOP Introduction
 
 *Note: (Currently German only)*
 
