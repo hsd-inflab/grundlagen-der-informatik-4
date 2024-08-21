@@ -72,16 +72,16 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
    3. A method that implements a menu displayed on the terminal with the following requirements:
       1. Display menu for all implemented methods
         
-        example:
-        ``````
-        CALCULATOR - please select:
-        0: end program
-        1: add
-        2: subtract
-        ..
-        ...
-        ....
-        ``````
+            example:
+            ``````
+            CALCULATOR - please select:
+            0: end program
+            1: add
+            2: subtract
+            ..
+            ...
+            ....
+            ``````
       2. Read in user input from terminal
       3. Display what parameters should now be provided by the user
       4. Read in user input for each parameter the selected methods requires
