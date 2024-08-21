@@ -61,19 +61,20 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
    9. (OPTIONAL) Change `addieren` the arguments to `int... zahlen`, declare and initialize the variable `int summme = 0` inside the method body of `addieren` and iterate of the provided arguments with a for-loop to add each argument to `summe` and finally return `summe` at the end
 
 #### Task 2 - Use the CLI Calculator
-1. Let your file explorer show file extensions to safe files with the correct `.java` file extension:
+<!-- Let your file explorer show file extensions to save files with the correct `.java` file extension:    (this is optional)
 
 ![](../images/windoof.png)
-
-2. Open a command line interface (Windows: `Powershell` or `Terminal` - *NOT* `cmd.exe`, Ubuntu: CTRL + SHIFT + T, MacOs: search for `Terminal`) and navigate to the location where you saved your Java Code with:
+-->
+1. Open a command line interface (Windows: `Powershell` or `Terminal` - *NOT* `cmd.exe`, Ubuntu: CTRL + SHIFT + T, MacOs: search for `Terminal`) and navigate to the location where you saved your Java Code with:
 
     ```bash
     cd PATH_TO_YOU_FILE
     ```
     You can obtain `PATH_TO_YOUR_FILE` in vscode by right-clicking on the folder where App.java is saved (should be called `src`) and choosing Copy Path (or SHIFT + ALT + C).
 
-4. Type ```javac App.java``` and press enter
-5. Now the java code has been compiled to ```App.class``` which you can run from within your terminal with:
+2. Type ```javac App.java``` and press enter
+   
+3. Now the java code has been compiled to ```App.class``` which you can run from within your terminal with:
     ```java
     java App
     ```
