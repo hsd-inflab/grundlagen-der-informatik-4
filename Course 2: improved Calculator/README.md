@@ -41,7 +41,7 @@ ______
 2. The following contraints apply:
      1. The default password is "123456". it has to be changed after the first call of the program.
      2. when setting a new password, it needs to contain at least:
-          1. One uppercase letter
+          1. One uppercase character
           2. One number
           3. One special character (* , - , /, ...)
           4. 8 characters in total
