@@ -21,7 +21,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 ### Task overview
 
-1. Create a simple Command Line Calculator.
+1. Create a simple Command Line Interface Calculator.
 2. Compile and run the program you created. 
 
 
