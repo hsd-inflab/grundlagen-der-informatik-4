@@ -65,24 +65,17 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 ![](../images/windoof.png)
 
-2. Open a simple text editor (Windows Notepad, Ubuntu Gedit or MacOs TextEdit) enter the following code and save it as ```Hello.java``` to your desired location:
-    ```java
-    public class Hello {
-        public static void main(String args[]) {
-            System.out.println("Hello Java");
-        }
-    }
-    ```
-3. Open a command line interface (Windows: `Powershell` or `Terminal` - *NOT* `cmd.exe`, Ubuntu: CTRL + SHIFT + T, MacOs: search for `Terminal`) and navigate to the location where you saved your Java Code with:
+2. Open a command line interface (Windows: `Powershell` or `Terminal` - *NOT* `cmd.exe`, Ubuntu: CTRL + SHIFT + T, MacOs: search for `Terminal`) and navigate to the location where you saved your Java Code with:
 
     ```bash
     cd PATH_TO_YOU_FILE
     ```
+    You can obtain `PATH_TO_YOUR_FILE` in vscode by right-clicking on the folder where App.java is saved (should be called `src`) and choosing Copy Path (or SHIFT + ALT + C).
 
-4. Type ```javac Hello.java``` and press enter
-5. Now the java code has been compiled to ```Hello.class``` which you can run from within your terminal with:
+4. Type ```javac App.java``` and press enter
+5. Now the java code has been compiled to ```App.class``` which you can run from within your terminal with:
     ```java
-    java Hello
+    java App
     ```
 
 
