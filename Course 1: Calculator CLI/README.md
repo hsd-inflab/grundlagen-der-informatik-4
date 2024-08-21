@@ -1,4 +1,4 @@
-## Course 01
+## Course 1: Calculator CLI
 
 ______
 
