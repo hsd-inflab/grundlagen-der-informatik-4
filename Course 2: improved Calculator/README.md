@@ -41,10 +41,10 @@ ______
 2. The following contraints apply:
      1. The default password is "123456". it has to be changed after the first call of the program.
      2. when setting a new password, it needs to contain at least:
-          1. One uppercase character
+          1. 8 characters in total
           2. One number
           3. One special character (* , - , /, ...)
-          4. 8 characters in total
+          4. One uppercase character
      3. when changing the password, the new password must differ from the old one
      4. the password object (a string) must be properly encapsulated by the correct access modifiers and getter/setter functions.
 3. To improve password storage security, upgrade your program by using a hashcode for storing the password insteand of plain text.     
