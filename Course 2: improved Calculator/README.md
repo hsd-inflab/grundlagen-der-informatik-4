@@ -1,4 +1,11 @@
 ## Course 02: Calculator
+______
+
+**ATTENTION:** When working with HSD lab computers, save ALL your work on the `H:\` drive!!!
+
+Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
+______
+
 
 ### Tasks
 1. Create a new java project without build tools like in [Course 01, Task 2](#task-2---basic-java-app)
