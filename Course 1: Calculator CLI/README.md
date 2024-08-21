@@ -112,5 +112,6 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
     ```
 
 4. Explain what happened during steps 2 and 3.
-5. Test your code with 
+
+5. Test your code with different inputs. If it crashes, adapt your code from Task 1.
 
