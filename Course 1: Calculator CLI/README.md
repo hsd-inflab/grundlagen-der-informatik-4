@@ -6,7 +6,7 @@ ______
 
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
-
+<!---
 <details>
 <summary> MacOS Users only - CLICK TO EXPAND </summary>
 
@@ -18,7 +18,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 - Close the TextEdit application and re-open it. Open a new document.
 
 </details>
-
+--->
 ### Task overview
 
 1. Create a simple Command Line Interface Calculator.
