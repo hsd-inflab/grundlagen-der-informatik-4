@@ -41,25 +41,56 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
     ![](../images/command_palette.png)
 
+
 2. VsCode should have created the file `App.java` for you (if not, create it)
-3. Change `App.java` to include
+3. In `App.java`, implement the following functionalities for the basic calculator:
    1. a `main` Method (should be already inside)
-   2. inside the `main` method declare the following variables and initialize them if a fitting value
-      1. `eineZahl` of the type `int`
-      2. `nochEineZahl` of the type `int`
-      3. `eineKommaZahl` of the type `double`
-      4. `eineZeichenKette` of the type `String`
-   3. outside of the `main` method, but inside `App`
-      1. a `static` method `addieren` with two parameters (also called "arguments") of the type `int`, for example `a` and `b`, that returns the addition of `a` and `b`
-      2. a `static` method `dividieren` with two parameters of the type `double`, for example `a` and `b`, that returns `a` divided by `b`
-      3. a `static` method `ggt` (größter, gemeinsamer Teiler) that calculates the greatest common divisor of the two `int` variables `a` and `b`
-         1. constraint: use recursion
-   4. call `addieren` with `a:eineZahl` and `b:nochEineZahl` and save the result in the variable `summe`
-   5. call `dividieren` with `a:eineKommaZahl` and `b:summe` and save the result in the variable `quotient`
-   6. Use the method `System.out.println` to print out `eineZeichenKette + quotient` to the integrated terminal in VsCode
-   7. call `ggt` with `a:eineZahl` and `b:nochEineZahl` and use `System.out.println` to print the result to the terminal
-   8. Explain why `addieren` and `dividieren` need to be declared as `static`
-   9. (OPTIONAL) Change `addieren` the arguments to `int... zahlen`, declare and initialize the variable `int summme = 0` inside the method body of `addieren` and iterate of the provided arguments with a for-loop to add each argument to `summe` and finally return `summe` at the end
+   2. A method each for the four basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
+      These methods have to fit the following requirements:
+      1. A meaningful name 
+      2. Two input parameters with appropriate data types
+      3. An appropriate return type
+      4. The name of the method as well as input parameter shall follow the naming conventions stated in the lecture
+      5. A static modifier
+   
+      example:
+        ```java
+        public class App {
+            public static void main(String args[]) {
+                /*...*/
+         
+            }
+            /*....*/
+            public static double subtract(double minuend, double subtrahend){
+                /*..*/
+            }   
+            /*....*/  
+        }
+        ```
+
+        
+   3. A method that implements a menu displayed on the terminal with the following requirements:
+      1. Display menu for all implemented methods
+        
+        example:
+        ``````
+        CALCULATOR - please select:
+        0: end program
+        1: add
+        2: subtract
+        ..
+        ...
+        ....
+        ``````
+      2. Read in user input from terminal
+      3. Display what parameters should now be provided by the user
+      4. Read in user input for each parameter the selected methods requires
+      5. Run the selected method and display the result in the terminal
+      6. Repeat the programm until the user presses 0, which should close all open resources and exit the program.
+
+   4. Make sure to sanitize the user inputs. The programm shall not crash or throw an exception when user inputs do not match the desired data type!
+            
+   5. Explain why the methods need to be declared as `static`.
 
 #### Task 2 - Use the CLI Calculator
 <!-- Let your file explorer show file extensions to save files with the correct `.java` file extension:    (this is optional)
@@ -80,6 +111,6 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
     java App
     ```
 
-4. Explain what happened during steps 2 and 3. 
-
+4. Explain what happened during steps 2 and 3.
+5. Test your code with 
 
