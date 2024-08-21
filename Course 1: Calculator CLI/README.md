@@ -21,8 +21,9 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 ### Task overview
 
-1. Create, compile and run a simple "Hello World" java application with only a text editor and the command line.
-2. Create and run a simple Java App, utilizing functions (methods) and recursion with VsCode.
+1. Create a simple Command Line Calculator.
+2. Compile and run the program you created. 
+
 
 ### Tasks
 
@@ -78,5 +79,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
     ```java
     java App
     ```
+
+4. Explain what happened during steps 2 and 3. 
 
 
