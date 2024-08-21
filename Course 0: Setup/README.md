@@ -157,3 +157,6 @@ These tools are already installed on the computers in the HSD lab, you ***do not
    ![](../images/57_setup_vscode_02.png)
    
    ![](../images/58_setup_vscode_03.png)
+
+
+Once you have finished these installations, you can continue with course 1.
