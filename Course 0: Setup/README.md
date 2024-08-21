@@ -1,7 +1,4 @@
-
-# Hochschule Düsseldorf, FB EI, Grundlagen der Informatik 4
-
-## Course 00 - Setup
+## Course 0: Setup
 
 For the following courses you need to install
 
