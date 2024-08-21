@@ -2,15 +2,17 @@
 
 ## Course 00 - Setup
 
-For the following courses you need to have
+For the following courses you need to install
 
-1) **Java 17** installed on your computer
-2) **VsCode** installed on your computer
-3) **Maven** installed on your computer
+1) **Java 17** 
+2) **VsCode** 
+3) **Maven**
 
-... which are already installed on ***our*** computers in our HSD laboratory!!!
+on your computer.
 
-##### Are you working on your ***own*** computer? Then install Java 17, Maven and Visual Studio Code:
+These tools are already installed on the computers in the HSD lab, you ***do not*** need to install them there!
+
+##### If you are working with your ***own*** computer, the installation process is shown below: 
 
 <details>
 <summary>WINDOWS</summary>
@@ -162,8 +164,9 @@ For the following courses you need to have
 
 ______
 
-**ATTENTION:** When you are inside the HSD laboratory room save ALL your work on the `H:\` drive!!!
+**ATTENTION:** When working with HSD lab computers, save ALL your work on the `H:\` drive!!!
 
+Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
 
 <details>
