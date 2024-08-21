@@ -30,7 +30,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 1. Let your file explorer show file extensions to safe files with the correct `.java` file extension:
 
-![](images/windoof.png)
+![](../images/windoof.png)
 
 2. Open a simple text editor (Windows Notepad, Ubuntu Gedit or MacOs TextEdit) enter the following code and save it as ```Hello.java``` to your desired location:
     ```java
@@ -60,11 +60,11 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
     EITHER clicking on the "Create Java project" button in the explorer view of VsCode *(considering you have no directory currently opened, otherwise this button won't show up)*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
 
-    ![](images/vscode_simple_java_app.gif)
+    ![](../images/vscode_simple_java_app.gif)
 
     OR by opening the VsCode command palette (press CTRL+SHIFT+P, MacOS: CMD+SHIFT+P) and typing  *Java: Create Java Project*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
 
-    ![](images/command_palette.png)
+    ![](../images/command_palette.png)
 
 2. VsCode should have created the file `App.java` for you (if not, create it)
 3. Change `App.java` to include
