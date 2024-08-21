@@ -8,7 +8,7 @@ A calculator app made with JavaFX.
 
 1. Create the Maven project ```se1c4``` by using the archetype `javafx-archetype-simple` from `org.openjfx` to create a **JAVA FX** (not Swing!) appliction
 
-    ![](images/vscode_maven_java_app.gif)
+    ![](../images/vscode_maven_java_app.gif)
 
     **IMPORTANT:** if you have Java 21 installed instead of Java 17 (you can check the version with `java --version` in the terminal),
    you need to set the javafx-controls dependency version to 20 inside pom.xml!
@@ -59,4 +59,4 @@ A calculator app made with JavaFX.
 
 *Note: (feel free to adapt and improve the design, add more buttons or use css to improve the styling)*
 
-![](images/calc.gif)
+![](../images/calc.gif)
