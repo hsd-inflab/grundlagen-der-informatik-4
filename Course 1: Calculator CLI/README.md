@@ -37,7 +37,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
     ![](../images/vscode_simple_java_app.gif)
 
-    OR by opening the VsCode command palette (press CTRL+SHIFT+P, MacOS: CMD+SHIFT+P) and typing  *Java: Create Java Project*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
+    OR by opening the VsCode command palette (press CTRL+SHIFT+P, MacOS: CMD+SHIFT+P) and typing  *Java: Create Java Project*, selecting "No builds tools", choosing a directory to create the project in and naming it `git4c1`
 
     ![](../images/command_palette.png)
 
