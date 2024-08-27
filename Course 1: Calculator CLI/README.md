@@ -33,7 +33,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 1. Create a new Java Project without build tools by...
 
-    EITHER clicking on the "Create Java project" button in the explorer view of VsCode *(considering you have no directory currently opened, otherwise this button won't show up)*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
+    EITHER clicking on the "Create Java project" button in the explorer view of VsCode *(considering you have no directory currently opened, otherwise this button won't show up)*, selecting "No builds tools", choosing a directory to create the project in and naming it `git4c1`
 
     ![](../images/vscode_simple_java_app.gif)
 
