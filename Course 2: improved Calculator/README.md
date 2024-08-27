@@ -19,6 +19,7 @@ ______
    2. x^y
    3. gcd(), greatest common divisor (größter gemeinsamer Teiler) of two numbers
    4. fibonacci(n), which returns the nth Fibonacci number
+   
    both 3 and 4 shall be implemented using recursion.
 
 5. Update your menu method to support the added functionalities
