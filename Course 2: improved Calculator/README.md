@@ -11,7 +11,7 @@ ______
 2. Implement a password manager
 
 ### Task 1: Improved Calculator
-1. Create a new java project without build tools like in **Course 1, Task 1**
+1. Create a new java project named `git4c2` without build tools like in **Course 1, Task 1** 
 2. Copy the code of `App.java` of **Course 1, Task 1** into your new `App.java`
 3. all requirements and constraints from course 1 apply as well, regarding naming conventions, sanitizing inputs etc.
 4. To improve your calculators functionality, implement the following methods:

@@ -13,7 +13,7 @@ A calculator app made with JavaFX.
 
 ### Tasks
 
-1. Create the Maven project ```se1c4``` by using the archetype `javafx-archetype-simple` from `org.openjfx` to create a **JAVA FX** (not Swing!) appliction
+1. Create the Maven project ```git4c4``` by using the archetype `javafx-archetype-simple` from `org.openjfx` to create a **JAVA FX** (not Swing!) appliction
 
     ![](../images/vscode_maven_java_app.gif)
 

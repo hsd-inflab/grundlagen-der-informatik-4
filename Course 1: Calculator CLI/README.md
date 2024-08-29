@@ -33,11 +33,11 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 1. Create a new Java Project without build tools by...
 
-    EITHER clicking on the "Create Java project" button in the explorer view of VsCode *(considering you have no directory currently opened, otherwise this button won't show up)*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
+    EITHER clicking on the "Create Java project" button in the explorer view of VsCode *(considering you have no directory currently opened, otherwise this button won't show up)*, selecting "No builds tools", choosing a directory to create the project in and naming it `git4c1`
 
     ![](../images/vscode_simple_java_app.gif)
 
-    OR by opening the VsCode command palette (press CTRL+SHIFT+P, MacOS: CMD+SHIFT+P) and typing  *Java: Create Java Project*, selecting "No builds tools", choosing a directory to create the project in and naming it `se1c1`
+    OR by opening the VsCode command palette (press CTRL+SHIFT+P, MacOS: CMD+SHIFT+P) and typing  *Java: Create Java Project*, selecting "No builds tools", choosing a directory to create the project in and naming it `git4c1`
 
     ![](../images/command_palette.png)
 
@@ -68,6 +68,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
         }
         ```
 
+       an example for proper naming of parameters (in english) can be found on [wikipedia](https://en.wikipedia.org/wiki/Template:Arithmetic_operations)
         
    3. A method that implements a menu displayed on the terminal with the following requirements:
       1. Display menu for all implemented methods
@@ -88,10 +89,9 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
       5. Run the selected method and display the result in the terminal
       6. Repeat the programm until the user presses 0, which should close all open resources and exit the program.
 
-   4. Make sure to sanitize the user inputs. The programm shall not crash or throw an exception when user inputs do not match the desired data type!
+   4. Explain why the methods need to be declared as `static`.
             
-   5. Explain why the methods need to be declared as `static`.
-
+   <!--5. Make sure to sanitize the user inputs. The programm shall not crash or throw an exception when user inputs do not match the desired data type! -->
 #### Task 2 - Use the CLI Calculator
 <!-- Let your file explorer show file extensions to save files with the correct `.java` file extension:    (this is optional)
 

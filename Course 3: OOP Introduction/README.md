@@ -20,7 +20,7 @@ Verfügung stellen.
 Die Demo-Klassen sollen genutzt werden, um einzelne Instanzen der Kfz Klassen zu
 erzeugen. Diese sollen eine main-Methode enthalten und somit ausführbar sein.
 
-1. Erstellen Sie das neue **Java Projekt** `se1c3`.
+1. Erstellen Sie das neue **Java Projekt** `git4c3`.
 2. Erstellen Sie sukzessive (nacheinander) die Klassen `KfzV0`, `Kfz` und `Lkw`:
    - Implementieren Sie die Klasse `KfzV0` mit den öffentlichen Integer-Attributen
    `sitze` und `tankInhalt` und dem öffentlichen Float-Attribut `verbrauch`.
