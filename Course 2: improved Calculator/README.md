@@ -11,7 +11,7 @@ ______
 2. Implement a password manager
 
 ### Task 1: Improved Calculator
-1. Create a new java project named `git4c2` without build tools like in **Course 1, Task 1** 
+1. Create a new java project named `git4c2a` without build tools like in **Course 1, Task 1** 
 2. Copy the code of `App.java` of **Course 1, Task 1** into your new `App.java`
 3. all requirements and constraints from course 1 apply as well, regarding naming conventions, sanitizing inputs etc.
 4. To improve your calculators functionality, implement the following methods:
@@ -34,19 +34,19 @@ ______
 
 
 
-1. Add another menu point for a password manager. This action shall open another submenu with the following functionalities:
-     1. set password
-     2. change password
-     3. check password
-     4. leave password manager (return to calculator menu)
+1. Create a new java project named `git4c2b` without build tools. You may repurpose and adapt your CLI menu from the previous task and implement the following functionalities:
+     1. change password
+     2. check password
+     2. leave password manager
 2. The following contraints apply:
-     1. The default password is "123456". it has to be changed after the first call of the program.
+     1. The default password is "123456".
      2. when setting a new password, it needs to contain at least:
           1. 8 characters in total
           2. One number
           3. One special character (* , - , /, ...)
           4. One uppercase character
      3. when changing the password, the new password must differ from the old one
-     4. the password object (a string) must be properly encapsulated by the correct access modifiers and getter/setter functions.
-3. To improve password storage security, upgrade your program by using a hashcode for storing the password insteand of plain text.     
+     4. if the password change is permitted, the user must confirm the new password by entering it again.
+     5. the password object (a string) must be properly encapsulated by the correct access modifiers and getter/setter functions.
+3. **OPTIONAL**: To improve password storage security, upgrade your program by using a hashcode for storing the password instead of plain text.     
     
