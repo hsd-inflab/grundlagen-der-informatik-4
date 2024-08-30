@@ -12,7 +12,7 @@ ______
 ### Overview: "Einstieg in die Objektorientierung"
 Die Klassen Kfz und Lkw werden erstellt, wobei die
 Grundprinzipien der Objektorientierung sukzessive einfließen. Dies bedeutet, dass wir mit
-einer "schlechten" Klasse `Fahrzeug` anfangen und diese ständig verbessern, bis wir schließlich
+einer  Oberklasse `Fahrzeug` anfangen und diese ständig verbessern, bis wir schließlich
 eine "schöne" Klasse `Kfz` erhalten.
 Hierzu werden im Folgenden zwei Arten von Klassen erstellt. `Fahrzeug`, `Kfz` und `Lkw` sollen zur
 Instanziierung von Objekten dienen und lediglich Attribute besitzen und Methoden zur
