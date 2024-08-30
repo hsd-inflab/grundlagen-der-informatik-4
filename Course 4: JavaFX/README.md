@@ -17,5 +17,6 @@ Java FX Graphical user interface (GUI) visualizing a lottery drawing.
 3. Extend the application with the following features:
     - No number is drawn more than once
     - All numbers are in ascending order
+4. Explain why Maven is used in this context and how it makes software development easier.
 
 ![lotto](../images/21_lotto.png)
