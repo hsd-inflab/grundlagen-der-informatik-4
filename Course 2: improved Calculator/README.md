@@ -34,7 +34,7 @@ ______
 
 
 
-1. Create a new java project named `git4c2b` without build tools. You may repurpose and adapt your CLI menu from the previous task and implement the following functionalities:
+1. Create a new java project named `git4c2b` without build tools. You may repurpose and adapt your CLI menu from the previous task. Implement the following functionalities:
      1. change password
      2. check password
      2. leave password manager
