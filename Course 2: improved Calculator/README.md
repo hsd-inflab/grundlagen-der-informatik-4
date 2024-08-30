@@ -48,5 +48,8 @@ ______
      3. when changing the password, the new password must differ from the old one
      4. if the password change is permitted, the user must confirm the new password by entering it again.
      5. the password object (a string) must be properly encapsulated by the correct access modifiers and getter/setter functions.
+
+    The full documentation for String Class can be found [here](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+
 3. **OPTIONAL**: To improve password storage security, upgrade your program by using a hashcode for storing the password instead of plain text.     
     
