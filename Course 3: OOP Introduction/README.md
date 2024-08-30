@@ -24,11 +24,6 @@ erzeugen. Diese sollen eine main-Methode enthalten und somit ausführbar sein.
 2. Erstellen Sie sukzessive (nacheinander) die Klassen `KfzV0`, `Kfz` und `Lkw`:
    - Implementieren Sie die Klasse `KfzV0` mit den öffentlichen Integer-Attributen
    `sitze` und `tankInhalt` und dem öffentlichen Float-Attribut `verbrauch`.
-3. Implementieren Sie das Programm `KfzDemo.java` mit einer main-Methode:
-   - Das Objekt `minivan` wird von der Klasse `KfzV0` erzeugt.
-   - Die Attribute werden mit `sitze = 6`, `tankInhalt = 70`, `verbrauch = 14` initialisiert.
-   - Die mögliche Reichweite bei vollem Tank wird ausgerechnet und mit
-   `System.out.println` ausgegeben.
 4. Erstellen Sie die Datei `ZweiKfz.java` und kopieren sie den Inhalt von `KfzDemo.java` hinein, außerdem:
    - Zusätzlich zum `minivan` Objekt wird ein Objekt `sportwagen` von der Klasse `KfzV0` erzeugt.
    - Die Attribute von `sportwagen` werden mit `sitze = 2`, `tankInhalt = 45`, `verbrauch = 11` initialisiert.
