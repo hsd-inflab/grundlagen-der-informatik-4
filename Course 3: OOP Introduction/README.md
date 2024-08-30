@@ -50,7 +50,7 @@ erzeugen. Diese sollen eine main-Methode enthalten und somit ausführbar sein.
 7. Erstellen Sie die Datei `SpritDemo.java` und kopieren Sie den Inhalt von `ReturnDemo.java` hinein, außerdem:
    - Die Methode spritVerbrauch wird in der main-Methode für die Entfernung 252 Kilometer aufgerufen und die Ergebnisse für die beiden Instanzen ausgegeben.
 
-8.  Erstellen Sie die Klasse `Kfz`. Die Klasse wird mittels Vererbung von `Fahrzeug` abgeleitet. Die neue Klasse `Kfz` enthält die Konstruktor-Methode `Kfz(int sitze, int tankInhalt, float verbrauch)` erweitert. 
+8.  Erstellen Sie die Klasse `Kfz`. Die Klasse wird mittels Vererbung von `Fahrzeug` abgeleitet. Die neue Klasse `Kfz` wird um die Konstruktor-Methode `Kfz(int sitze, int tankInhalt, float verbrauch)` erweitert. 
 
 9. Erstellen Sie die Datei `KonstruktorDemo.java` und kopieren Sie den Inhalt von `SpritDemo.java` hinein, außerdem:
     - Die Attribute werden über den Konstruktor `Kfz` initialisiert.
