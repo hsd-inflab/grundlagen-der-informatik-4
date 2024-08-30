@@ -68,7 +68,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
         }
         ```
 
-       an example for proper naming of parameters (in english) can be found on [wikipedia](https://en.wikipedia.org/wiki/Template:Arithmetic_operations)
+       inspiration for proper naming of parameters (in english) can be found [here](https://en.wikipedia.org/wiki/Template:Arithmetic_operations)
         
    3. A method that implements a menu displayed on the terminal with the following requirements:
       1. Display menu for all implemented methods
