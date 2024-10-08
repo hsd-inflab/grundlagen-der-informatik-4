@@ -159,4 +159,12 @@ These tools are already installed on the computers in the HSD lab, you ***do not
    ![](../images/58_setup_vscode_03.png)
 
 
+You can check if your installations of java and maven were successful by typing
+
+```mvn --version```
+
+into your local terminal. The output should look like this: 
+
+ ![](../images/mvnversion.png)
+
 Once you have finished these installations, you can continue with course 1.
