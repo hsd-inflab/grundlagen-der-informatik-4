@@ -104,10 +104,14 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
     ```
     You can obtain `PATH_TO_YOUR_FILE` in vscode by right-clicking on the folder where App.java is saved (should be called `src`) and choosing Copy Path (or SHIFT + ALT + C).
 
-2. Type ```javac App.java``` and press enter
+2. Type 
+   ```bash
+    javac App.java
+    ```
+   and press enter
    
 3. Now the java code has been compiled to ```App.class``` which you can run from within your terminal with:
-    ```java
+    ```bash
     java App
     ```
 
