@@ -44,11 +44,9 @@ ______
      1. The default password is "123456".
      2. when setting a new password, it needs to contain at least:
           1. 8 characters in total
-          ***___OPTIONAL___***
-          2. One number
-          3. One special character (* , - , /, ...)
-          4. One uppercase character
-           ***___OPTIONAL___***
+          2. *_OPTIONAL_*: One number
+          3. *_OPTIONAL_*: One special character (* , - , /, ...)
+          4. *_OPTIONAL_*: One uppercase character
      3. when changing the password, the new password must differ from the old one
      4. if the password change is permitted, the user must confirm the new password by entering it again.
      5. the password object (a string) must be properly encapsulated by the correct access modifiers and getter/setter functions.
