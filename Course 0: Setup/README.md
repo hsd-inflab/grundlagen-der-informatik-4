@@ -83,7 +83,7 @@ These tools are already installed on the computers in the HSD lab, you ***do not
   ```powershell
   choco list
    ```
-- if all installations worked, you should see an output like this:
+- if all installations worked, the output should look like this:
    ```powershell
   maven 3.9.9
   oracle17jdk 17.0.2
