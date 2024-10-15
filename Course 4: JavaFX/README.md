@@ -13,7 +13,7 @@ Java FX Graphical user interface (GUI) visualizing a lottery drawing.
 ### Tasks
 
 1. Create the Maven project ```git4c4``` by using the archetype `javafx-archetype-simple` from `org.openjfx` to create a **JAVA FX** (not Swing!) application
-2. Extend the Code in `App.java` and create a GUI consisting of 6 [TextFields](https://openjfx.io/javadoc/17/javafx.controls/javafx/scene/control/TextField.html)'s and one "Draw" [Button](https://openjfx.io/javadoc/17/javafx.controls/javafx/scene/control/Button.htmll) of HsdButton type.
+2. Extend the Code in `App.java` and create a GUI consisting of 6 [TextFields](https://openjfx.io/javadoc/17/javafx.controls/javafx/scene/control/TextField.html) and one "Draw" [Button](https://openjfx.io/javadoc/17/javafx.controls/javafx/scene/control/Button.htmll) of HsdButton type.
 3. class  `HsdButton` extends `Button`
       1. set the min width and size to a reasonable value
       2. set the background color to be white
