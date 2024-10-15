@@ -78,6 +78,20 @@ These tools are already installed on the computers in the HSD lab, you ***do not
       choco install scenebuilder
       ```
   - or via installer: [Gluon Scene Builder Installer](https://gluonhq.com/products/scene-builder)
+
+- If you used chocolatey for installation, you can use the command
+  ```powershell
+  choco list
+   ```
+- if all installations worked, you should see an output like this:
+   ```powershell
+  maven 3.9.9
+  oracle17jdk 17.0.2
+  scenebuilder 22.0.0
+  vscode 1.94.2
+  vscode.install 1.94.2
+   ```
+   
 </details>
 
 <details>
