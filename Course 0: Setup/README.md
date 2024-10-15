@@ -15,15 +15,27 @@ These tools are already installed on the computers in the HSD lab, you ***do not
 <details>
 <summary>WINDOWS</summary>
 
-- Winget for Windows 10 users: [LINK](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab) (winget is installed in Windows 11 by default)   
-- Java Open JDK 17
-  - Either via installer: [Adoptium Open JDK installer](https://adoptium.net/)
-  - Or via winget (system-wide by default):
+- First, install Chocolatey for easier package and Software installation:
+  - open powershell as administrator (right-click: open as administrator) and run:
       ```powershell
-      winget install EclipseAdoptium.Temurin.17.JDK
+      Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
       ```
+  - Once the installation is completed, close the Powershell (Admin) or Terminal (Admin) and open it again and run the following commands:        
+
+- Java Open JDK 17
+  - via Chocolatey (recommended):
+      ```powershell
+      choco install oracle17jdk
+      ```
+  - or via installer (slower): [Adoptium Open JDK installer](https://adoptium.net/)
+    
 - Visual Studio Code
-  - Either via installer: [Visual Studio Code Installer](https://code.visualstudio.com/)
+  - via chocolatey (recommended):  
+    ```powershell
+    choco install vscode
+    ```
+    
+  - or via installer (slower): [Visual Studio Code Installer](https://code.visualstudio.com/)
     1) Download the vscode installer [from the official website.
       ](https://code.visualstudio.com/)
 
@@ -46,31 +58,26 @@ These tools are already installed on the computers in the HSD lab, you ***do not
        ![](../images/54_run_vscode_installer_05.png)
 
        ![](../images/55_run_vscode_installer_06.png)
-  - Or with winget system-wide:  
-    ```
-    winget install Microsoft.VisualStudioCode --scope machine
-    ```
-  - Or with winget as a user-only installation:  
-    ```powershell
-    winget install Microsoft.VisualStudioCode
-    ```
+  
+  
 - [VSCode Java extension pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 - [VSCode Spring Boot extension pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
-- Gluon Scene Builder
-  - Either via installer: [Gluon Scene Builder Installer](https://gluonhq.com/products/scene-builder)
-  - Or with winget (user only):
+
+- Maven
+  - via chocolatey (recommended):  
+     ```powershell
+     choco install maven
+     ```
+  - or via installer (slower):
+    (https://maven.apache.org/install.html)
+
+***OPTIONAL***
+- Gluon Scene Builder  
+  - via chocolatey (recommended):
       ```powershell
-      winget install Gluon.SceneBuilder
+      choco install scenebuilder
       ```
-- [Maven](https://maven.apache.org/install.html)
-  - open powershell as administrator (right-click: open as administrator) and run:
-      ```powershell
-      Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-      ```
-  - Once the installation is completed, close the Powershell (Admin) or Terminal (Admin) and open it again and run:        
-      ```powershell
-      choco install maven
-      ```
+  - or via installer: [Gluon Scene Builder Installer](https://gluonhq.com/products/scene-builder)
 </details>
 
 <details>
