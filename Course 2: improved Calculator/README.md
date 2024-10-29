@@ -22,9 +22,10 @@ ______
    
    both 3 and 4 shall be implemented using recursion.
 
-5. Commment your code where necessary. Good comments add context to code without explaining obvious things. A good rule of thumb is to explain ***WHY*** you do something and not **what** you are doing.  
-6. Update your menu method to support the added functionalities
- 
+5. Update your menu method to support the added functionalities  
+6. Commment your code where necessary. Good comments add context to code without explaining obvious things. A good rule of thumb is to explain ***WHY*** you do something and not **what** you are doing. The image below is a representation of how you should ***NOT*** be commenting your code.
+
+ ![](../images/badComments.jpg)
 
 ### Task 2: Password Manager
 ______
