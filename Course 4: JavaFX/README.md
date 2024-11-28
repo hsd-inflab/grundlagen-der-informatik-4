@@ -25,3 +25,9 @@ Java FX Graphical user interface (GUI) visualizing a lottery drawing.
 6. Explain why Maven is used in this context and how it aids in software and application development.
 
 ![lotto](../images/21_lotto.png)
+
+
+### **FOR MAC OS USERS**
+
+If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
+1. Uninstall Java 17 and install Java 21
