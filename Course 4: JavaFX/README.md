@@ -26,8 +26,20 @@ Java FX Graphical user interface (GUI) visualizing a lottery drawing.
 
 ![lotto](../images/21_lotto.png)
 
+ **IMPORTANT:** if you have Java 21 installed instead of Java 17 (you can check the version with `java --version` in the terminal),
+   you need to set the javafx-controls dependency version to 20 inside pom.xml!
 
+6. ***IMPORTANT for Apple💻🍎 Mac M1/M2/M3 (not Intel!) users at home...***
+
+   Change the javafx-controls dependency, to include
+
+   `<classifier>mac-aarch64</classifier>`
+
+   *after* the version tag, or the UI will not start and the app will crash!
+    
+<!--
 ### **FOR MAC OS USERS**
 
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
+-->
