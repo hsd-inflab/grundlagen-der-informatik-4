@@ -29,7 +29,7 @@ Java FX Graphical user interface (GUI) visualizing a lottery drawing.
  **IMPORTANT:** if you have Java 21 installed instead of Java 17 (you can check the version with `java --version` in the terminal),
    you need to set the javafx-controls dependency version to 20 inside pom.xml!
 
-6. ***IMPORTANT for Apple💻🍎 Mac M1/M2/M3 (not Intel!) users at home...***
+***IMPORTANT for Apple💻🍎 Mac M1/M2/M3 (not Intel!) users at home...***
 
    Change the javafx-controls dependency, to include
 
