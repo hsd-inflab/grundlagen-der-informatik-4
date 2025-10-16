@@ -1,7 +1,7 @@
 ## Course 02: Calculator + Password Manager
 ______
 
-**ATTENTION:** When working with HSD lab computers, save ALL your work on the `H:\` drive!!!
+**ATTENTION:** When working with HSD lab computers, save ALL your work on the network drive (Dieser PC-> Netzwerkadressen)!!!
 
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
@@ -55,4 +55,5 @@ ______
 
 3. **OPTIONAL**: To improve password storage security, upgrade your program by using a hashcode for storing the password instead of plain text.     
     
+
 
