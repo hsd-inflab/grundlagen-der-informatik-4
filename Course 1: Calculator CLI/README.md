@@ -2,7 +2,7 @@
 
 ______
 
-**ATTENTION:** When working with HSD lab computers, save ALL your work on the `H:\` drive!!!
+**ATTENTION:** When working with HSD lab computers, save ALL your work on the network drive (Dieser PC-> Netzwerkadressen)!!!
 
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
@@ -118,4 +118,5 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 4. Explain what happened during steps 2 and 3.
 
 5. Test your code with different inputs. If it crashes, adapt your code from Task 1.
+
 
