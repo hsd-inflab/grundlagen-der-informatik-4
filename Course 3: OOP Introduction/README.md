@@ -1,7 +1,7 @@
 ## Course 3: OOP Introduction
 ______
 
-**ATTENTION:** When working with HSD lab computers, save ALL your work on the `H:\` drive!!!
+**ATTENTION:** When working with HSD lab computers, save ALL your work on the network drive (Dieser PC -> Netzwerkadressen)!!!
 
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
@@ -41,9 +41,11 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
    - wechselt **nach** jedem Wurf die Seitenanzahl
 
 ![dice](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wuerfel5.jpg?uselang=de)
+
 Quelle: https://de.wikipedia.org/wiki/Spielwürfel
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
 ![instant](../images/instantiating.png)
+
 
