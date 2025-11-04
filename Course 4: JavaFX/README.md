@@ -27,7 +27,7 @@ ______
 3. In the folder frontend/pages, create a new Class called `PantryPage.java` that inherits `Page` and contains a method `getView()` that returns the root as its return type. Inspiration on how this can be done may be obtained by analyzing already existing Page Classes.
 4. The page shall be accessible by clicking on **Speisekammer verwalten** in the Main Menu. Uncomment the `navigator.register()` method in `MealPlannerFX.java` so that you can navigate to the new page. 
 5. Behaviour of the page shall be as follows: On the left, list all items that are currently in the pantry. Upon clicking an item, its details shall be printed on the right side. The buttons **Lebensmittel hinzufügen** navigates to `AddGroceryPage`, **Zurück zum Hauptmenü** to `MainPage`.
-6. Relevant and useful JavaFX components are:
+6. The JavaFX Documentation is available under: https://openjfx.io/javadoc/17 . Relevant and useful JavaFX components are:
    - VBox
    - HBox
    - BorderPane
@@ -60,3 +60,4 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
