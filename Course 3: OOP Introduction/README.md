@@ -6,6 +6,9 @@ ______
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
 
+***Vorbereitung***
+Befassen Sie sich mit den vier Säulen der Objektorientierung. Sie müssen diese in diesem Versuch identifizieren und erklären können, wie diese funktionieren und warum diese eingesetzt werden.
+
 
 *Note: (Currently German only)*
 
@@ -47,5 +50,6 @@ Quelle: https://de.wikipedia.org/wiki/Spielwürfel
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
 ![instant](../images/instantiating.png)
+
 
 
