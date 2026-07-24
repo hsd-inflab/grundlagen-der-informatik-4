@@ -20,18 +20,19 @@ Sämtlicher Code ist vor Ort zu programmieren. Eine inhaltliche Vorbereitung und
 
 Laden Sie das **Java Projekt** `dicegameTemplate` unter folgendem Link herunter: https://github.com/hsd-inflab/dicegameTemplate
 
-Ziel des Praktikums ist das Füllen der Main-Klasse mit selbst erstellten Würfelobjekten. 
+Ziel des Praktikums ist das Implementieren neuer Würfelklassen für das Würfelspiel. 
 Bereits vorhanden sind:
 1. Die Main Klasse
-2. Die Abstrakte Oberklasse `Dice.java`, von der die zu erstellenden Würfelklassen abgeleitet werden sollen
-3. Die Klasse `Shaker.java`, welche den Würfelbecher repräsentiert
+2. Das Package **types** mit der abstrakten Oberklasse `Dice.java`, von der die zu erstellenden Würfelklassen abgeleitet werden sollen
+3. Das Package **framework** mit den Klassen `Shaker.java`, welche den Würfelbecher repräsentiert, sowie `DiceFactory.java` und `DiceResult.java`, welche die Erstellung der Würfelobjekte und deren Ergebnisse behandeln.
+4. Das Package **ui**, welches die Darstellung der Würfel ermöglicht.
 
 Bevor Sie während des Praktikums mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
-Die bereits vorhandenen Klassen `Dice` und `Shaker` dürfen nicht verändert werden.
+Die bereits vorhandenen Klassen dürfen (und müssen!) nicht verändert werden.
 
-Wenn Sie einen Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu und überprüfen Sie die korrekte Funktion.
+Die konkreten Würfelklassen müssen unter dem Package **types** abgelegt werden, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Diese starten Sie, indem Sie die Main Methode ausführen.
    
-Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
+Es sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
    - normaler, sechsseitiger Würfel
 2. `MultisidedDice.java`
@@ -43,12 +44,13 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 4. `ChaosDice.java`
    - Würfel zwischen 4 und 20 Seiten
    - wechselt **nach** jedem Wurf die Seitenanzahl
+5. `CustomDice.java`
+   - Ein Würfel mit einem Verhalten Ihrer Wahl. Seien Sie kreativ.
 
 ![dice](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wuerfel5.jpg?uselang=de)
 
 Quelle: https://de.wikipedia.org/wiki/Spielwürfel
-
-Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
+ 
 
 ![instant](../images/instantiating.png)
 
