@@ -50,10 +50,6 @@ Es sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 ![dice](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wuerfel5.jpg?uselang=de)
 
 Quelle: https://de.wikipedia.org/wiki/Spielwürfel
- 
-
-![instant](../images/instantiating.png)
-
 
 
 
