@@ -30,7 +30,7 @@ Bereits vorhanden sind:
 Bevor Sie während des Praktikums mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
 Die bereits vorhandenen Klassen dürfen (und müssen!) nicht verändert werden.
 
-Die konkreten Würfelklassen müssen unter dem Package **types** abgelegt werden, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Diese starten Sie, indem Sie die Main Methode ausführen.
+Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Diese starten Sie, indem Sie die Main Methode ausführen.
    
 Es sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
