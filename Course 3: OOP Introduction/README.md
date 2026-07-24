@@ -32,7 +32,7 @@ Die bereits vorhandenen Klassen dürfen (und müssen!) nicht verändert werden.
 
 Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Diese starten Sie, indem Sie die Main Methode ausführen.
    
-Es sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
+Es sollen die folgenden fünf Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
    - normaler, sechsseitiger Würfel
 2. `MultisidedDice.java`
