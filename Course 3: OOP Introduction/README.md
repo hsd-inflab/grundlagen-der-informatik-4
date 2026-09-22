@@ -8,7 +8,7 @@ ______
 
 ***Vorbereitung***
 
-Überlegen Sie sich im vornherein, wie sie das Verhalten der Würfel abbilden können.
+Überlegen Sie vorab, wie Sie das Verhalten der Würfel abbilden können.
 
 *Note: (Currently German only)*
 
@@ -28,9 +28,9 @@ Bereits vorhanden sind:
 
 Die bereits vorhandenen Klassen dürfen (und müssen!) nicht verändert werden.
 
-Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, von `Dice.java` erben und entweder einen parameterlosen Konstruktor oder einen Konstruktor mit einem int-Parameter besitzen, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Die GUI starten Sie, indem Sie die Main Methode ausführen.
+Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, von `Dice.java` (oder einer seiner Unterklassen) erben und entweder einen parameterlosen Konstruktor oder einen Konstruktor mit einem int-Parameter besitzen, damit sie erzeugt werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Die GUI starten Sie, indem Sie die Main Methode ausführen.
    
-Es sollen die folgenden fünf Würfel von `Dice.java` abgeleitet werden:
+Es sollen die folgenden fünf Würfel von `Dice.java` (direkt oder indirekt) abgeleitet werden:
 1. `RegularDice.java`
    - normaler, sechsseitiger Würfel
 2. `MultisidedDice.java`
