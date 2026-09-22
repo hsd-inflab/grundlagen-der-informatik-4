@@ -8,13 +8,12 @@ ______
 
 ***Vorbereitung***
 
-Befassen Sie sich mit den vier Säulen der Objektorientierung. Sie müssen diese in diesem Versuch identifizieren und erklären können, wie diese funktionieren und warum diese eingesetzt werden.
-
+Überlegen Sie sich im vornherein, wie sie das Verhalten der Würfel abbilden können.
 
 *Note: (Currently German only)*
 
 ### Overview: "Einstieg in die Objektorientierung"
-Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt werden und darüber die vier Säulen der Objektorientierung anhand von praktischen Beispielen kennen gelernt werden.
+Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt und darüber anhand von praktischen Beispielen die Grundlagen der Vererbung kennen gelernt werden.
 
 Sämtlicher Code ist vor Ort zu programmieren. Eine inhaltliche Vorbereitung und vorherige Planung ist jedoch zwingend erforderlich um das Praktikum erfolgreich zu absolvieren.
 
@@ -27,10 +26,9 @@ Bereits vorhanden sind:
 3. Das Package **framework** mit den Klassen `Shaker.java`, welche den Würfelbecher repräsentiert, sowie `DiceFactory.java` und `DiceResult.java`, welche die Erstellung der Würfelobjekte und deren Ergebnisse behandeln.
 4. Das Package **ui**, welches die Darstellung der Würfel ermöglicht.
 
-Bevor Sie während des Praktikums mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
 Die bereits vorhandenen Klassen dürfen (und müssen!) nicht verändert werden.
 
-Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Diese starten Sie, indem Sie die Main Methode ausführen.
+Die konkreten Würfelklassen müssen im Package **types** abgelegt werden, von `Dice.java` erben und entweder einen parameterlosen Konstruktor oder einen Konstruktor mit einem int-Parameter besitzen, damit diese vom Framework gefunden werden können. Sobald Sie einen Würfel implementiert haben, erscheint dieser automatisch in der JavaFX-Ansicht. Die GUI starten Sie, indem Sie die Main Methode ausführen.
    
 Es sollen die folgenden fünf Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
