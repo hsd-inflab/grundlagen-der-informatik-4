@@ -2,7 +2,7 @@
 
 For the following courses you need to install
 
-1) **Java 17** 
+1) **Java 21** 
 2) **VsCode** 
 3) **Maven**
 
@@ -22,10 +22,10 @@ These tools are already installed on the computers in the HSD lab, you ***do not
       ```
   - Once the installation is completed, close the Powershell (Admin) or Terminal (Admin) and open it again and run the following commands:        
 
-- Java Open JDK 17
+- Java Open JDK 21
   - via Chocolatey (recommended):
       ```powershell
-      choco install oracle17jdk
+      choco install oracle21jdk
       ```
   - or via installer (slower): [Adoptium Open JDK installer](https://adoptium.net/)
     
@@ -86,7 +86,7 @@ These tools are already installed on the computers in the HSD lab, you ***do not
 - if all installations worked, the output should look like this:
    ```powershell
   maven 3.9.9
-  oracle17jdk 17.0.2
+  oracle21jdk 21.0.2
   scenebuilder 22.0.0
   vscode 1.94.2
   vscode.install 1.94.2
@@ -103,7 +103,7 @@ These tools are already installed on the computers in the HSD lab, you ***do not
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-- Java Open JDK 17
+- Java Open JDK 21
   - Either via installer: [Adoptium Open JDK installer](https://adoptium.net/)
   - Or via brew:
     ```
@@ -140,9 +140,9 @@ These tools are already installed on the computers in the HSD lab, you ***do not
 <details>
 <summary>UBUNTU</summary>
 
-- Java Open JDK 17
+- Java Open JDK 21
   ```bash
-  sudo apt install openjdk-17-jdk
+  sudo apt install openjdk-21-jdk
   ```
 - Visual Studio Code
   - Either via installer: [Visual Studio Code Installer](https://code.visualstudio.com/)
