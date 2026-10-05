@@ -69,8 +69,14 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
         ```
 
        inspiration for proper naming of parameters (in english) can be found [here](https://en.wikipedia.org/wiki/Template:Arithmetic_operations)
+
+   3. The following four functions:
+       1. sin(x)
+       2. x^y
+       3. gcd(), greatest common divisor (größter gemeinsamer Teiler) of two numbers
+       4. fibonacci(n), which returns the nth Fibonacci number
         
-   3. A method that implements a menu displayed on the terminal with the following requirements:
+   4. A method that implements a menu displayed on the terminal with the following requirements:
       1. Display menu for all implemented methods
         
             example:
@@ -89,7 +95,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
       5. Run the selected method and display the result in the terminal
       6. Repeat the programm until the user presses 0, which should close all open resources and exit the program.
 
-   4. Explain why the methods need to be declared as `static`.
+   5. Explain why the methods need to be declared as `static`.
             
    <!--5. Make sure to sanitize the user inputs. The programm shall not crash or throw an exception when user inputs do not match the desired data type! -->
 #### Task 2 - Use the CLI Calculator
