@@ -27,7 +27,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 ### Tasks
 
-#### Task 1 - Basic Java Calculator App
+#### Task 1 - Java Calculator App
 
 *GENERAL NOTE*: While developing in VsCode, please check red squiggle lines and/or the "PROBLEMS" tab for any compilation errors or linter warnings. Often you can use the "Quick Fix" in the context menu (mouse over or `CTRL` + `.`, MacOs: `CMD` + `.`).
 
@@ -43,7 +43,7 @@ Please make sure to follow these steps to "downgrade" your TextEdit to save simp
 
 
 2. VsCode should have created the file `App.java` for you (if not, create it)
-3. In `App.java`, implement the following functionalities for the basic calculator:
+3. In `App.java`, implement the following functionalities for the calculator:
    1. a `main` Method (should be already inside)
    2. A method each for the four basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
       These methods have to fit the following requirements:
