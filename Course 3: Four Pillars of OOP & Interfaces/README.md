@@ -22,7 +22,7 @@ entschieden, ob ein Fahrzeug ein gültiges Ticket bekommt oder abgewiesen wird,
 an der **Ausfahrt** wird anhand des Tickets die zu zahlende Gebühr (ein
 `Receipt`) berechnet.
 
-Das Projekt können Sie unter ""Link"" herunterladen.
+Das Projekt können Sie unter [parking-garage-template](https://github.com/hsd-inflab/parking-garage-template) herunterladen.
 
 Das Verhalten von Ein- und Ausfahrt steckt hinter zwei Interfaces:
 
