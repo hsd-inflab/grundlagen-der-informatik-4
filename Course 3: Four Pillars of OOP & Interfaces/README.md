@@ -20,7 +20,8 @@ In diesem Projekt steuert ein kleiner Simulator ein Parkhaus mit 100 Stellplätz
 Fahrzeuge (PKW, LKW, Motorrad) fahren ein und aus; an der **Einfahrt** wird
 entschieden, ob ein Fahrzeug ein gültiges Ticket bekommt oder abgewiesen wird,
 an der **Ausfahrt** wird anhand des Tickets die zu zahlende Gebühr (ein
-`Receipt`) berechnet.
+`Receipt`) berechnet. Das Ticket soll die aktuelle Simulator-Uhrzeit zum Zeitpunkt
+der Einfahrt enthalten.
 
 Das Projekt können Sie unter [parking-garage-template](https://github.com/hsd-inflab/parking-garage-template) herunterladen.
 
@@ -30,7 +31,7 @@ Das Verhalten von Ein- und Ausfahrt steckt hinter zwei Interfaces:
 - `parking.gate.iface.Exit`
 
 Aktuell existieren im Package `parking.gate.impl` **zwei Klassen**:
-`EntranceGate` und `ExitGate`. Sie implementieren jeweils ein Interface und stellen das Standardverhalten
+`EntranceGate` und `ExitGate`. Diese implementieren jeweils ein Interface und stellen das Standardverhalten
 bereit (jedes Fahrzeug bekommt ein Ticket, es wird ein fester Betrag berechnet).
 Ihre Aufgabe ist es, dieses Standardverhalten durch **vier neue Regeln** zu
 ersetzen bzw. zu erweitern.
@@ -78,7 +79,7 @@ Relevante Daten sind in den folgenden Klassen verfügbar:
 - `Ticket` – Ticket inkl. Einfahrtszeitpunkt
 - `SimClock` – Zeitgeber der Simulation einschließlich aktueller Sim-Uhrzeit
 
-**Schritt 2 – Signatur festlegen.** Aus den beiden Spalten „Nötige Information"
+**Schritt 2 – Signatur festlegen.** Aus den beiden Spalten „Nötige Information" und "Bereitsteller"
 ergibt sich, welche Parameter die Interface-Methoden `processIncoming(...)` und
 `processOutgoing(...)` bekommen müssen. Das Interface muss **alle** Parameter enthalten!
 Legen Sie darauf aufbauend die endgültige Signatur beider Interface-Methoden fest.
@@ -86,7 +87,8 @@ Legen Sie darauf aufbauend die endgültige Signatur beider Interface-Methoden fe
 **Schritt 3 – Aufrufstellen anpassen.** Alle Aufrufe der Interface-Methoden liegen 
 in der Klasse `Lot`. Passen Sie die beiden
 Aufrufe in `Lot.enter(...)` und `Lot.exit(...)` so an, dass sie die neuen
-Argumente übergeben. Mehr müssen Sie an der vorhandenen Infrastruktur **nicht**
+Argumente übergeben. Außerdem müssen Sie die Signatur der beiden Default-Implementationen anpassen.
+Mehr müssen Sie an der vorhandenen Infrastruktur **nicht**
 ändern.
 
 **Schritt 4 – Regeln implementieren.** Legen Sie im Package `parking.gate.impl`
